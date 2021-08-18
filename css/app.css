@@ -1,0 +1,87 @@
+/*	--------------------------------------------------
+	:: Colour
+	-------------------------------------------------- */
+	
+body, .dark{
+	background: #231e1f;
+	color: #ffffff;
+}
+
+.light{
+	background: #efefef;
+	color: #2b3036;
+}
+ul.categories li a, .dark ul.categories li a{
+	background: #000;
+}
+.light ul.categories li a{
+	background: #fff;
+}
+
+/*	--------------------------------------------------
+	:: News Colour
+	-------------------------------------------------- */
+	
+	a { color: inherit; text-decoration: none; line-height: inherit; border-bottom: 3px solid black; }
+	a:hover { color: #c0c1c0; }
+	a:focus { color: #c0c1c0; outline: none; }
+	p a, p a:visited { line-height: inherit; }
+	
+	li a, li a:hover { line-height: inherit; }
+	
+	a img, img a{ color: #c0c1c0; text-decoration: none; line-height: inherit; border-bottom: none; }
+		
+
+	a*.no_ul{ color: inherit; text-decoration: none; line-height: inherit; border-bottom: none; }
+	
+
+/*	--------------------------------------------------
+	:: Lists
+	-------------------------------------------------- */
+	ul, ol { margin-bottom: 18px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul.large li { line-height: 21px; }
+	
+
+/* -------------------------------------------------- 
+	:: Misc
+---------------------------------------------------*/
+/*	.left        { float: left; } */
+/*	.right       { float: right; } */
+	.text-left   { text-align: left; }
+	.text-right  { text-align: right; }
+	.text-center { text-align: center; }
+	.hide        { display: none; }
+	.highlight   { background: #ff0; }
+	
+	#googlemap img, object, embed { max-width: none; }
+
+	#map_canvas embed { max-width: none; }
+	#map_canvas img { max-width: none; }
+	#map_canvas object { max-width: none; }
+	
+	
+	/* -------------------------------------------------- 
+		:: mobile images
+	---------------------------------------------------*/
+	.m-image{
+		padding-bottom: 10%;
+			letter-spacing: 1px;
+		padding-top: 5%;
+	}
+	.m-image p{
+		font-size: 9px!important;
+		
+	}
+	.m-image img{
+		width: 75%;
+		padding-right: 12.5%;
+		padding-bottom: 0;
+		padding-left: 10%;
+	}
+	

@@ -1,0 +1,71 @@
+/*Font*/
+
+body{
+font-family: 'nhu-wg', 'Helvetica Neue', Arial, sans-serif;
+/* Font smoothing */
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+
+@font-face {font-family: 'nhu-wg';
+  src: url('../nhu/2EC723_3_0.eot');
+  src: url('../nhu/2EC723_3_0.eot?#iefix') format('embedded-opentype'),url('../nhu/2EC723_3_0.woff2') format('woff2'),url('../nhu/2EC723_3_0.woff') format('woff'),url('../nhu/2EC723_3_0.ttf') format('truetype');
+font-weight: 600;
+font-style: normal;
+  }
+ 
+  
+@font-face {font-family: 'nhu-wg';
+  src: url('../nhu/2EC723_4_0.eot');
+  src: url('../nhu/2EC723_4_0.eot?#iefix') format('embedded-opentype'),url('../nhu/2EC723_4_0.woff2') format('woff2'),url('../nhu/2EC723_4_0.woff') format('woff'),url('../nhu/2EC723_4_0.ttf') format('truetype');
+ font-weight: 600;
+ font-style: italic;
+ 
+  }
+
+
+  
+@font-face {font-family: 'nhu-wg';
+  src: url('../nhu/2EC723_A_0.eot');
+  src: url('../nhu/2EC723_A_0.eot?#iefix') format('embedded-opentype'),url('../nhu/2EC723_A_0.woff2') format('woff2'),url('../nhu/2EC723_A_0.woff') format('woff'),url('../nhu/2EC723_A_0.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+
+  }
+ 
+  
+@font-face {font-family: 'nhu-wg';
+  src: url('../nhu/2EC723_B_0.eot');
+  src: url('../nhu/2EC723_B_0.eot?#iefix') format('embedded-opentype'),url('../nhu/2EC723_B_0.woff2') format('woff2'),url('../nhu/2EC723_B_0.woff') format('woff'),url('../nhu/2EC723_B_0.ttf') format('truetype');
+font-weight: 500;
+font-style: italic;
+  }
+
+@font-face {font-family: 'nhu-wg';
+  src: url('../nhu/2EC723_8_0.eot');
+  src: url('../nhu/2EC723_8_0.eot?#iefix') format('embedded-opentype'),url('../nhu/2EC723_8_0.woff2') format('woff2'),url('../nhu/2EC723_8_0.woff') format('woff'),url('../nhu/2EC723_8_0.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
+  }
+ 
+  
+@font-face {font-family: 'nhu-wg';
+  src: url('../nhu/2EC723_9_0.eot');
+  src: url('../nhu/2EC723_9_0.eot?#iefix') format('embedded-opentype'),url('../nhu/2EC723_9_0.woff2') format('woff2'),url('../nhu/2EC723_9_0.woff') format('woff'),url('../nhu/2EC723_9_0.ttf') format('truetype');
+font-weight: 300;
+font-style: italic;
+}
+  
+  
+  
+  
+
+

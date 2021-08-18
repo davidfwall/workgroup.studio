@@ -1,0 +1,533 @@
+/* @override http://localhost:8888/id2015/assets/ull/text.css */
+
+/* @override http://localhost:8888/id2015//assets/ull/text.css */
+
+
+
+ul.li-ndash li::before{
+content: '—\A';
+white-space: pre;
+}
+ul.li-ndash li::before{
+content: '– ';
+}
+ul.li-ndash li{
+	margin-bottom: 14px;
+text-indent: -14px;}
+
+*.margin p,
+.text-margin p{
+padding-bottom: .66em!important;	
+max-width: 95%;
+}
+/*Icons*/
+
+.icon-s{font-size: 11px!important;}
+.icon-m{font-size: 14px!important;}
+.icon-l{font-size: 18px!important;}
+.icon-xl{font-size: 22px!important;}
+.icon-xxl{font-size: 32px!important;}
+.icon-xxxl{font-size: 44px!important;}
+
+italic {font-style: italic;}
+
+
+/*SIZE*/
+body, html
+ a,
+ p, 
+ h1, 
+ h2, 
+ h3, 
+ h4, 
+ h5, 
+ h6,
+ button,
+ input
+
+{	font-size: 14px;
+	line-height: 24px;
+}
+
+p{
+	margin-bottom: 14px;
+}
+
+
+
+.text-l, 
+.text-l p, 
+.text-l h1, 
+.text-l h2, 
+.text-l h3, 
+.text-l h4, 
+.text-l h5, 
+.text-l h6,
+.text-l button,
+.text-l a,
+a.text-l, 
+p.text-l, 
+h1.text-l, 
+h2.text-l, 
+h3.text-l, 
+h4.text-l, 
+h5.text-l, 
+h6.text-l,
+button.text-l,
+input.text-l
+{	font-size: 42px;
+	line-height: 45px;
+}
+
+.text-m, 
+.text-m p, 
+.text-m h1, 
+.text-m h2, 
+.text-m h3, 
+.text-m h4, 
+.text-m h5, 
+.text-m h6,
+.text-m button,
+.text-m a,
+a.text-m, 
+p.text-m, 
+h1.text-m, 
+h2.text-m, 
+h3.text-m, 
+h4.text-m, 
+h5.text-m, 
+h6.text-m,
+button.text-m,
+input.text-m
+{	font-size: 18px;
+	line-height: 29px;
+}
+
+.text-s, 
+.text-s p, 
+.text-s h1, 
+.text-s h2, 
+.text-s h3, 
+.text-s h4, 
+.text-s h5, 
+.text-s h6,
+.text-s button,
+.text-s a,
+a.text-s, 
+p.text-s, 
+h1.text-s, 
+h2.text-s, 
+h3.text-s, 
+h4.text-s, 
+h5.text-s, 
+h6.text-s,
+button.text-s,
+input.text-s
+
+{	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/*WEIGHT*/
+body, html
+ a, 
+ p, 
+ h1, 
+ h2, 
+ h3, 
+ h4, 
+ h5, 
+ h6,
+ button
+
+{		
+	
+}
+
+
+.text-bold, 
+.text-bold p, 
+.text-bold h1, 
+.text-bold h2, 
+.text-bold h3, 
+.text-bold h4, 
+.text-bold h5, 
+.text-bold h6,
+.text-bold button,
+.text-bold a,
+a.text-bold, 
+p.text-bold, 
+h1.text-bold, 
+h2.text-bold, 
+h3.text-bold, 
+h4.text-bold, 
+h5.text-bold, 
+h6.text-bold,
+form button.text-bold,
+form input.text-bold
+
+{
+}
+/*Medium*/
+.text-medium, 
+.text-medium p, 
+.text-medium h1, 
+.text-medium h2, 
+.text-medium h3, 
+.text-medium h4, 
+.text-medium h5, 
+.text-medium h6,
+.text-medium button,
+.text-medium a,
+a.text-medium, 
+p.text-medium, 
+h1.text-medium, 
+h2.text-medium, 
+h3.text-medium, 
+h4.text-medium, 
+h5.text-medium, 
+h6.text-medium,
+form button.text-medium,
+form input.text-medium
+
+{
+	font-weight: 500;
+}
+
+/*light*/
+
+.text-light, 
+.text-light p, 
+.text-light h1, 
+.text-light h2, 
+.text-light h3, 
+.text-light h4, 
+.text-light h5, 
+.text-light h6,
+.text-light button,
+.text-light a,
+a.text-light, 
+p.text-light, 
+h1.text-light, 
+h2.text-light, 
+h3.text-light, 
+h4.text-light, 
+h5.text-light, 
+h6.text-light,
+form button.text-light,
+form input.text-light
+
+{
+	font-weight: 300;
+}
+
+
+/*Small Caps*/
+
+.sc
+{
+	font-size: 8px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+caption, .caption{
+	padding: 0 15px;
+	font-size: 8px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+caption, .caption{
+	padding: 0 15px;
+	font-size: 8px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	display: inline-block;
+	margin-top: -30px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------*/
+
+@media all and (max-width: 767px) {
+
+/*Mobile SIZE*/
+
+ p, 
+ h1, 
+ h2, 
+ h3, 
+ h4, 
+ h5, 
+ h6,
+ button,
+ input
+
+{	font-size: 14px;
+	line-height: 22px;
+}
+
+
+.text-m, 
+.text-m p, 
+.text-m h1, 
+.text-m h2, 
+.text-m h3, 
+.text-m h4, 
+.text-m h5, 
+.text-m h6,
+.text-m button,
+.text-m a,
+a.text-m, 
+p.text-m, 
+h1.text-m, 
+h2.text-m, 
+h3.text-m, 
+h4.text-m, 
+h5.text-m, 
+h6.text-m,
+button.text-m,
+input.text-m
+{	font-size: 16px;
+	line-height: 26px;
+
+}
+
+/*Mobile Small Caps*/
+
+.sc
+{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+/*alternative mobile size*/
+
+
+
+
+.m-text-l, 
+.m-text-l p, 
+.m-text-l h1, 
+.m-text-l h2, 
+.m-text-l h3, 
+.m-text-l h4, 
+.m-text-l h5, 
+.m-text-l h6,
+.m-text-l button,
+.m-text-l a,
+a.m-text-l, 
+p.m-text-l, 
+h1.m-text-l, 
+h2.m-text-l, 
+h3.m-text-l, 
+h4.m-text-l, 
+h5.m-text-l, 
+h6.m-text-l,
+button.m-text-l,
+input.m-text-l
+{	font-size: 63px;
+	line-height: 66px;
+
+}
+
+.m-text-m, 
+.m-text-m p, 
+.m-text-m h1, 
+.m-text-m h2, 
+.m-text-m h3, 
+.m-text-m h4, 
+.m-text-m h5, 
+.m-text-m h6,
+.m-text-m button,
+.m-text-m a,
+a.m-text-m, 
+p.m-text-m, 
+h1.m-text-m, 
+h2.m-text-m, 
+h3.m-text-m, 
+h4.m-text-m, 
+h5.m-text-m, 
+h6.m-text-m,
+button.m-text-m,
+input.m-text-m,
+
+
+.m-text-s, 
+.m-text-s p, 
+.m-text-s h1, 
+.m-text-s h2, 
+.m-text-s h3, 
+.m-text-s h4, 
+.m-text-s h5, 
+.m-text-s h6,
+.m-text-s button,
+.m-text-s a,
+a.m-text-s, 
+p.m-text-s, 
+h1.m-text-s, 
+h2.m-text-s, 
+h3.m-text-s, 
+h4.m-text-s, 
+h5.m-text-s, 
+h6.m-text-s,
+button.m-text-s,
+input.m-text-s
+
+{	font-size: 14px;
+	line-height: 22px;
+}
+
+
+/*Mobile Weight*/
+
+
+.text-m.text-bold, 
+.text-m.text-bold p, 
+.text-m.text-bold h1, 
+.text-m.text-bold h2, 
+.text-m.text-bold h3, 
+.text-m.text-bold h4, 
+.text-m.text-bold h5, 
+.text-m.text-bold h6,
+.text-m.text-bold button,
+.text-m.text-bold a,
+a.text-m.text-bold, 
+p.text-m.text-bold, 
+h1.text-m.text-bold, 
+h2.text-m.text-bold, 
+h3.text-m.text-bold, 
+h4.text-m.text-bold, 
+h5.text-m.text-bold, 
+h6.text-m.text-bold,
+form button.text-m.text-bold,
+form input.text-m.text-bold,
+
+.text-s.text-bold, 
+.text-s.text-bold p, 
+.text-s.text-bold h1, 
+.text-s.text-bold h2, 
+.text-s.text-bold h3, 
+.text-s.text-bold h4, 
+.text-s.text-bold h5, 
+.text-s.text-bold h6,
+.text-m.text-bold button,
+.text-m.text-bold a,
+a.text-s.text-bold, 
+p.text-s.text-bold, 
+h1.text-s.text-bold, 
+h2.text-s.text-bold, 
+h3.text-s.text-bold, 
+h4.text-s.text-bold, 
+h5.text-s.text-bold, 
+h6.text-s.text-bold,
+form button.text-s.text-bold,
+form input.text-s.text-bold
+
+{
+	font-weight: 600;
+}
+
+.text-xxxl.text-light, 
+.text-xxxl.text-light p, 
+.text-xxxl.text-light h1, 
+.text-xxxl.text-light h2, 
+.text-xxxl.text-light h3, 
+.text-xxxl.text-light h4, 
+.text-xxxl.text-light h5, 
+.text-xxxl.text-light h6,
+.text-xxxl.text-light button,
+.text-xxxl.text-light a,
+a.text-xxxl.text-light, 
+p.text-xxxl.text-light, 
+h1.text-xxxl.text-light, 
+h2.text-xxxl.text-light, 
+h3.text-xxxl.text-light, 
+h4.text-xxxl.text-light, 
+h5.text-xxxl.text-light, 
+h6.text-xxxl.text-light,
+form button.text-xxxl.text-light,
+form input.text-xxxl.text-light,
+
+.text-xxl.text-light, 
+.text-xxl.text-light p, 
+.text-xxl.text-light h1, 
+.text-xxl.text-light h2, 
+.text-xxl.text-light h3, 
+.text-xxl.text-light h4, 
+.text-xxl.text-light h5, 
+.text-xxl.text-light h6,
+.text-xxl.text-light button,
+.text-xxl.text-light a,
+a.text-xxl.text-light, 
+p.text-xxl.text-light, 
+h1.text-xxl.text-light, 
+h2.text-xxl.text-light, 
+h3.text-xxl.text-light, 
+h4.text-xxl.text-light, 
+h5.text-xxl.text-light, 
+h6.text-xxl.text-light,
+form button.text-xxl.text-light,
+form input.text-xxl.text-light,
+
+.text-xl.text-light, 
+.text-xl.text-light p, 
+.text-xl.text-light h1, 
+.text-xl.text-light h2, 
+.text-xl.text-light h3, 
+.text-xl.text-light h4, 
+.text-xl.text-light h5, 
+.text-xl.text-light h6,
+.text-xl.text-light button,
+.text-xl.text-light a,
+a.text-xl.text-light, 
+p.text-xl.text-light, 
+h1.text-xl.text-light, 
+h2.text-xl.text-light, 
+h3.text-xl.text-light, 
+h4.text-xl.text-light, 
+h5.text-xl.text-light, 
+h6.text-xl.text-light,
+form button.text-xl.text-light,
+form input.text-xl.text-light
+
+{
+	font-weight: 300;
+}
+.text-l.text-light, 
+.text-l.text-light p, 
+.text-l.text-light h1, 
+.text-l.text-light h2, 
+.text-l.text-light h3, 
+.text-l.text-light h4, 
+.text-l.text-light h5, 
+.text-l.text-light h6,
+.text-l.text-light button,
+.text-l.text-light a,
+a.text-l.text-light, 
+p.text-l.text-light, 
+h1.text-l.text-light, 
+h2.text-l.text-light, 
+h3.text-l.text-light, 
+h4.text-l.text-light, 
+h5.text-l.text-light, 
+h6.text-l.text-light,
+form button.text-l.text-light,
+form input.text-l.text-light
+{
+	font-weight: 300;
+}
+
+
+}/*-------------------------------------------------------------------------------------------------*/
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
